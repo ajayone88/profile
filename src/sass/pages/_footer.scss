@@ -1,0 +1,47 @@
+.footer{
+    margin-top:5rem;
+    background-image: linear-gradient(
+                        to right bottom, 
+                        rgba($color-grey-light, .2), 
+                        rgba($color-grey-dark, .2));
+
+    display:flex;
+    flex-wrap: wrap;
+    padding:4rem 0;
+    
+    &__information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        flex-grow:1;
+    }
+
+    &__social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        flex-grow:1;
+    }
+
+    &__facebook-icon,
+    &__facebook-icon,
+    &__linkedin-icon,
+    &__github-icon
+    {
+        width:4rem;
+        height:4rem;
+        margin:.5rem;
+    }
+
+    &__facebook-icon{
+        fill:$color-blue-light;
+    }
+    &__linkedin-icon{
+        fill:$color-blue-light;
+    }
+    &__github-icon{
+        fill:$color-black;
+    }
+}

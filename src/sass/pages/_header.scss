@@ -1,0 +1,17 @@
+.header{
+    margin-top:7.5rem;
+    background-image:linear-gradient(to right bottom, rgba($color-grey-light,.8), rgba($color-grey-dark, .8)),
+                     url(./images/profilePhoto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 7.5rem);
+
+    .animate-left{
+        animation: moveInLeft .8s ease-out;
+    }
+
+    .animate-right{
+        animation: moveInRight .8s ease-out;
+    }
+}

@@ -1,0 +1,39 @@
+.section__certification{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media(max-width:30em){
+       margin:2rem 0;
+    }
+
+    &-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        figure{
+            width:15rem;
+            padding:2rem;
+            box-shadow: 0 2px 3px $color-black;
+            border-radius: 3px;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin: 1rem;
+
+            @media(max-width:30em){
+                width:40%;
+             }
+        }
+
+        figure:hover{
+            transform: translateY(-3px);
+        }
+    }
+
+    &__icon{
+        width:8rem;
+    }
+}

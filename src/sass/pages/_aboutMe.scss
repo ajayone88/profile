@@ -1,0 +1,22 @@
+.section__aboutMe{
+    padding:4rem;
+    &-box{
+        ul{
+            list-style: none;
+            li{
+                margin:2rem;
+                font-size: 1.5rem;
+                text-align:justify;
+            }
+        }
+    }
+
+    @media(max-width:56em){
+        padding:2rem 0;
+    }
+
+    strong{
+        color:$color-blue-light;
+        font-size: .5;
+    }
+}

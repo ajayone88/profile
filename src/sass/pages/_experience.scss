@@ -1,0 +1,43 @@
+.section__experience{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   padding:2rem;
+
+   &-heading{}
+
+    &-box{
+        width:100%;
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        &-one{
+            margin: 1rem 0;
+            img{
+                width:10rem;
+            }
+        }
+
+        &-two{
+            margin: 1rem 0;
+            img{
+                margin:1rem 0;
+                width:8rem;
+            }
+        }
+    }
+
+    .Roles{
+        font-size: 1.5rem;
+    }
+
+    ul{
+        list-style: none;
+        li{ 
+            margin:.5rem 0;
+            font-size: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+//Abstract
+@import "./sass/abstract/variables";
+@import "./sass/abstract/mixins";
+
+
+
+//Base
+@import "./sass/base/base";
+@import "./sass/base/typography";
+@import "./sass/base/utilities";
+
+
+//Components
+
+
+//Pages
+@import "./sass/pages/app";
+@import "./sass/pages/nav";
+@import "./sass/pages/header";
+@import "./sass/pages/aboutMe";
+@import "./sass/pages/experience";
+@import "./sass/pages/technology";
+@import "./sass/pages/certification";
+@import "./sass/pages/footer";
