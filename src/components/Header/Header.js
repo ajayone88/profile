@@ -69,10 +69,12 @@ const header = (props) =>{
                 </ul>
             </nav>
             <header id="home" className="header">
-                <h1 className="heading__primary">
-                    <span className="heading__primary--main animate-left">I am Ajay Maurya</span>
-                    <span className="heading__primary--sub animate-right">Full Stack Developer</span>
-                </h1>
+                <div className="header__image">
+                    <h1 className="heading__primary">
+                        <span className="heading__primary--main animate-left">I am Ajay Maurya</span>
+                        <span className="heading__primary--sub animate-right">Full Stack Developer</span>
+                    </h1>
+                </div>
             </header>
         </Auxillary>
     )

@@ -1,30 +1,20 @@
 .section__experience{
-   display:flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items:center;
-   padding:2rem;
-
-   &-heading{}
-
     &-box{
-        width:100%;
         display:flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
 
         &-one{
-            margin: 1rem 0;
+            margin: 2rem;
             img{
                 width:10rem;
             }
         }
 
         &-two{
-            margin: 1rem 0;
+            margin: 2rem;
             img{
-                margin:1rem 0;
-                width:8rem;
+                width:10rem;
             }
         }
     }

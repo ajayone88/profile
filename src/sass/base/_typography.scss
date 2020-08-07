@@ -39,7 +39,14 @@
     align-items: center;
     height:100%;
     width:100%;
-    font-size: 3rem;;
+    font-size: 3rem;
+    color: $color-blue-dark;
+    @supports(background-clip: text) or (-webkit-background-clip: text){
+        background-image:linear-gradient(to right bottom, $color-teal-light, $color-teal-dark);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color:transparent;
+    }
 }
 
 .heading-tertiary{
@@ -47,6 +54,15 @@
     font-size: 2rem;
     transition: transform .4s ease;
     margin-bottom:2px;
+    color: $color-blue-dark;
+    
+    @supports(background-clip: text) or (-webkit-background-clip: text){
+        background-image:linear-gradient(to right bottom, $color-teal-light, $color-teal-dark);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color:transparent;
+    }
+
    &:hover{
         transform: skewY(-5deg);
         background-color: $color-grey-light;

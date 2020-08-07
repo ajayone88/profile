@@ -1,5 +1,7 @@
 .section__aboutMe{
-    padding:4rem;
+    @media(max-width:56em){
+    }
+
     &-box{
         ul{
             list-style: none;
@@ -11,9 +13,6 @@
         }
     }
 
-    @media(max-width:56em){
-        padding:2rem 0;
-    }
 
     strong{
         color:$color-blue-light;

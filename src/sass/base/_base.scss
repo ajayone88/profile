@@ -14,3 +14,33 @@ body{
     font-family: 'Roboto Slab', serif;
     box-sizing: border-box;
 }
+
+.section__aboutMe,
+.section__experience,
+.section__technology,
+.section__certification{
+    max-width:1000px;
+    margin:0 auto;
+    min-height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:5rem;
+
+    @media(max-width:48em){
+        padding:5rem 1rem;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+.section__aboutMe,
+.section__technology{
+    flex-direction: row;
+}
+
+.section__experience,
+.section__certification{
+    flex-direction: row-reverse;
+}

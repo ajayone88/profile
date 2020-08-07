@@ -1,11 +1,5 @@
 .section__technology{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin:4rem;
     @media(max-width:56em){
-        margin:2rem 0;
     }
     
     &-heading{}

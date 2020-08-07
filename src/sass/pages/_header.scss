@@ -1,5 +1,6 @@
 .header{
-    margin-top:7.5rem;
+    padding-top:7.5rem;
+   &__image{
     background-image:linear-gradient(to right bottom, rgba($color-grey-light,.8), rgba($color-grey-dark, .8)),
                      url(./images/profilePhoto.png);
     background-repeat: no-repeat;
@@ -14,4 +15,5 @@
     .animate-right{
         animation: moveInRight .8s ease-out;
     }
+   }
 }

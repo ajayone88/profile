@@ -1,10 +1,5 @@
 .section__certification{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     @media(max-width:30em){
-       margin:2rem 0;
     }
 
     &-box{
